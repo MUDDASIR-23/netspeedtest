@@ -90,3 +90,10 @@ export default defineConfig({
     },
   },
 });
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    historyApiFallback: true
+  },
+  base: '/',
+})
